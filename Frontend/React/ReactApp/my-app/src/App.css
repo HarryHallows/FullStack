@@ -1,0 +1,48 @@
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.app
+{
+
+  height: 100vh;
+  min-height: 100vh;
+
+
+  color: rgb(207, 207, 207);
+  background: rgb(78, 78, 78);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tweet
+{
+  height:  300px;
+  width: 300px;
+
+  background: white;
+  color: rgb(102, 102, 102);
+
+  border: 2px solid black;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  align-items: center;
+}
